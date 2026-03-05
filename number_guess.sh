@@ -5,6 +5,7 @@ RANDOMNUMBER=$(($RANDOM % 1000 + 1))
 echo "Enter your username:"
 read USERNAME
 
+
 # Nettoyer le username
 USERNAME=$(echo $USERNAME | xargs)
 
